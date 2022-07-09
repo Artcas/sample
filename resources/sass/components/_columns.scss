@@ -1,0 +1,56 @@
+.column-holder {
+    width: 300px;
+    padding: 10px 20px;
+    margin: 15px;
+    border: 2px solid #6c757d;
+
+    .column-title {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+
+        h4 {
+            text-transform: capitalize;
+        }
+
+        .remove-column {
+            width: 25px;
+            height: 25px;
+            cursor: pointer;
+            border: 1px solid black;
+            transition: 0.3s ease-in-out;
+            text-align: center;
+
+            &:hover {
+                color: white;
+                background: black;
+            }
+        }
+    }
+
+    .column-cards-section {
+        margin-top: 15px;
+
+        .card-items {
+            padding: 10px;
+            border: 1px solid #e1e1e8;
+
+            .card-section-header {
+                display: flex;
+                justify-content: space-between;
+                align-content: center;
+
+                h4 {
+                    text-transform: capitalize;
+                }
+            }
+        }
+    }
+}
+
+.add-column {
+    width: 300px;
+    padding: 10px 20px;
+    margin: 15px;
+    border: 2px solid #6c757d;
+}
